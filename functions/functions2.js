@@ -6,4 +6,7 @@ const sum = function (number1, number2) {
   console.log(number1 + number2);
 };
 
-sum(2, 3); // arguments - argumentos
+// arguments - argumentos
+sum(2, 3);
+sum(500, 750);
+sum(800, 2500);
