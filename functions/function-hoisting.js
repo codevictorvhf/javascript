@@ -1,5 +1,5 @@
 sayMyName();
 
-const sayMyName = function () {
+function sayMyName() {
   console.log("Victor");
-};
+}
