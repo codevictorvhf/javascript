@@ -12,6 +12,6 @@ let date = new Date(2019 - 03 - 20);
 console.log(date);
 
 const victor = new Person("Victor");
-const weslley = new Person("Weslley");
+const carol = new Person("Carol");
 console.log(victor.walk());
-console.log(weslley.walk());
+console.log(carol.walk());
