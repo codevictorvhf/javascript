@@ -7,5 +7,5 @@ function createThink(subject) {
   return subject;
 }
 
-console.log(subject);
 console.log(createThink(subject));
+console.log(subject);
