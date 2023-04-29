@@ -6,7 +6,7 @@ let c = score > 70 && score <= 79;
 let d = score > 60 && score <= 69;
 let e = score <= 60;
 
-if (a >= 90) {
+if (score >= 90) {
   console.log("a");
 } else if (b) {
   console.log("b");
