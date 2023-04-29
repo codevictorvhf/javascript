@@ -1,10 +1,10 @@
-let nota = 77;
+let score = 77;
 
-let a = nota >= 90;
-let b = nota > 80 && nota <= 89;
-let c = nota > 70 && nota <= 79;
-let d = nota > 60 && nota <= 69;
-let e = nota <= 60;
+let a = score >= 90;
+let b = score > 80 && score <= 89;
+let c = score > 70 && score <= 79;
+let d = score > 60 && score <= 69;
+let e = score <= 60;
 
 if (a >= 90) {
   console.log("a");
