@@ -1,20 +1,25 @@
 let score = 77;
 
 let a = score >= 90;
-let b = score > 80 && score <= 89;
-let c = score > 70 && score <= 79;
-let d = score > 60 && score <= 69;
-let e = score <= 60;
+let b = score >= 80 && score <= 89;
+let c = score >= 70 && score <= 79;
+let d = score >= 60 && score <= 69;
+let e = score < 60 && score >= 0;
 
-if (score >= 90) {
-  console.log("a");
+let scoreFinal;
+
+if (a) {
+  scoreFinal = "A";
 } else if (b) {
-  console.log("b");
+  scoreFinal = "B";
 } else if (c) {
-  console.log("c");
+  scoreFinal = "C";
 } else if (d) {
-  console.log("d");
+  scoreFinal = "D";
+} else if (e) {
+  scoreFinal = "E";
 } else {
-  nota = e;
-  console.log("e");
+  scoreFinal = "Invalid Note";
 }
+
+console.log(scoreFinal);
