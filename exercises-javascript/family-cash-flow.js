@@ -24,8 +24,8 @@ function calculateBalance() {
   if (positive) {
     balanceText = "Positive";
   }
-}
 
-console.log(`Seu saldo é ${balanceText}: ${total}`);
+  console.log(`Seu saldo é ${balanceText}: R$${total.toFixed(2)}`);
+}
 
 calculateBalance();
