@@ -1,3 +1,5 @@
+// family cash flow. Check if the balance is positive or negative and show the balance amount.
+
 let family = {
   revenues: [500, 100, 430.5, 3500],
   expenses: [450, 300, 110.15, 2200],
