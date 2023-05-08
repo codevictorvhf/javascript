@@ -1,3 +1,5 @@
+// make an algorithm that turns numeric notes into character notes
+
 function getScore(score) {
   let a = score >= 90;
   let b = score >= 80 && score <= 89;
