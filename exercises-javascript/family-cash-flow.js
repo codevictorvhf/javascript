@@ -21,13 +21,13 @@ function calculateBalance() {
 
   const positive = total >= 0;
 
-  let balanceText = "Negative";
+  let balanceText = "negative";
 
   if (positive) {
-    balanceText = "Positive";
+    balanceText = "positive";
   }
 
-  console.log(`Seu saldo é ${balanceText}: R$${total.toFixed(2)}`);
+  console.log(`Your Balance is ${balanceText}: R$${total.toFixed(2)}`);
 }
 
 calculateBalance();
