@@ -1,4 +1,4 @@
-let i = 765764445467;
+let i = 52521875;
 
 while (i > 10) {
   console.log(i);
