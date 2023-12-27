@@ -13,5 +13,5 @@ console.log(carol.walk());
 let string = new String("Victor");
 console.log(string);
 
-let date = new Date(2019 - 03 - 20);
+let date = new Date(2019 - 20);
 console.log(date);
